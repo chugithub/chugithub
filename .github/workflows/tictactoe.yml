@@ -1,0 +1,48 @@
+name: Tic-Tac-Toe move
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-move:
+    runs-on: ubuntu-latest
+
+    if: startsWith(github.event.issue.title, 'tictactoe|')
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update board and README
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/update_board.py \
+            "${{ github.event.issue.title }}" \
+            "${{ github.event.issue.user.login }}"
+
+      - name: Commit the updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md board.json
+          git diff --cached --quiet || git commit -m "tic-tac-toe: ${{ github.event.issue.title }} by @${{ github.event.issue.user.login }}"
+          git push
+
+      - name: Close the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} \
+            --comment "Move processed! Check the README for the updated board." \
+            --repo ${{ github.repository }}
