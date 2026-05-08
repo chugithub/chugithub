@@ -2,24 +2,24 @@
 
 Anyone with a GitHub account can play. Click a cell to make a move.
 
-## Turn: **O**
+## Turn: **X**
 
 |   |   |   |
 |---|---|---|
 | X |   |   |
-|   |   |   |
+|   | O |   |
 |   |   |   |
 
-### Click a cell to play **O**:
+### Click a cell to play **X**:
 
 |   |   |   |
 |---|---|---|
 | X | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C1&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C2&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) |
-| [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C3&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C4&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C5&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) |
+| [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C3&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) | O | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C5&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) |
 | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C6&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C7&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) | [ play ](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C8&body=Just+click+%27Submit+new+issue%27+below.+You+don%27t+need+to+do+anything+else.) |
 
 ---
 [Start a new game](https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Creset&body=Just+click+%27Submit+new+issue%27+below.)
 
 
-> _@chugithub played in cell 0_
+> _@chugithub played in cell 4_
