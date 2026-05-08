@@ -6,7 +6,7 @@
     "",
     "O",
     "",
-    "",
+    "X",
     "",
     ""
   ],
@@ -19,6 +19,11 @@
     {
       "index": 4,
       "symbol": "O",
+      "user": "chugithub"
+    },
+    {
+      "index": 6,
+      "symbol": "X",
       "user": "chugithub"
     }
   ]
