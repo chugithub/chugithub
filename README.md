@@ -6,7 +6,7 @@ _a quiet little game on my GitHub profile — anyone can play_
 
 <table><tbody>
   <tr>
-    <td align="center" valign="middle"><a href="https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C0&body=Just+click+%27Submit+new+issue%27+below."><img src="images/cell-0.svg" width="120" height="120" alt="cell 0"/></a></td>
+    <td align="center" valign="middle"><img src="images/cell-0.svg" width="120" height="120" alt="cell 0"/></td>
     <td align="center" valign="middle"><a href="https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C1&body=Just+click+%27Submit+new+issue%27+below."><img src="images/cell-1.svg" width="120" height="120" alt="cell 1"/></a></td>
     <td align="center" valign="middle"><a href="https://github.com/chugithub/chugithub/issues/new?title=tictactoe%7Cmove%7C2&body=Just+click+%27Submit+new+issue%27+below."><img src="images/cell-2.svg" width="120" height="120" alt="cell 2"/></a></td>
   </tr>
@@ -27,4 +27,4 @@ Click an empty cell to make a move. [ Start a new game](https://github.com/chugi
 ---
 
 
-> _@chugithub started a new game_
+> _@chugithub played in cell 0_

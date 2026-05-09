@@ -1,6 +1,6 @@
 {
   "board": [
-    "",
+    "X",
     "",
     "",
     "",
@@ -10,5 +10,11 @@
     "",
     ""
   ],
-  "moves": []
+  "moves": [
+    {
+      "index": 0,
+      "symbol": "X",
+      "user": "chugithub"
+    }
+  ]
 }
