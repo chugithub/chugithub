@@ -1,40 +1,14 @@
 {
   "board": [
-    "X",
-    "O",
     "",
-    "X",
-    "O",
     "",
-    "X",
+    "",
+    "",
+    "",
+    "",
+    "",
     "",
     ""
   ],
-  "moves": [
-    {
-      "index": 0,
-      "symbol": "X",
-      "user": "chugithub"
-    },
-    {
-      "index": 4,
-      "symbol": "O",
-      "user": "chugithub"
-    },
-    {
-      "index": 6,
-      "symbol": "X",
-      "user": "chugithub"
-    },
-    {
-      "index": 1,
-      "symbol": "O",
-      "user": "chugithub"
-    },
-    {
-      "index": 3,
-      "symbol": "X",
-      "user": "chugithub"
-    }
-  ]
+  "moves": []
 }
