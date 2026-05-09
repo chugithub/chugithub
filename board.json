@@ -8,12 +8,17 @@
     "",
     "",
     "",
-    ""
+    "O"
   ],
   "moves": [
     {
       "index": 0,
       "symbol": "X",
+      "user": "chugithub"
+    },
+    {
+      "index": 8,
+      "symbol": "O",
       "user": "chugithub"
     }
   ]
