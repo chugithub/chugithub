@@ -5,16 +5,10 @@
     "",
     "",
     "",
-    "X",
+    "",
     "",
     "",
     ""
   ],
-  "moves": [
-    {
-      "index": 5,
-      "symbol": "X",
-      "user": "chugithub"
-    }
-  ]
+  "moves": []
 }
