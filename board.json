@@ -1,7 +1,7 @@
 {
   "board": [
     "X",
-    "",
+    "O",
     "",
     "",
     "O",
@@ -24,6 +24,11 @@
     {
       "index": 6,
       "symbol": "X",
+      "user": "chugithub"
+    },
+    {
+      "index": 1,
+      "symbol": "O",
       "user": "chugithub"
     }
   ]
